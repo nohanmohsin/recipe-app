@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value= {search} onChange= {updateSearch}/>
-        <button className="search-button" type='submit'></button> 
+        <input className="search-bar" type="text" value= {search} onChange= {updateSearch} placeholder="type here to search"/>
+        <button className="search-button" type='submit'>Search</button> 
       </form>   
       {
         recipes.map(recipe => (
