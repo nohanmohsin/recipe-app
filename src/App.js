@@ -43,7 +43,7 @@ function App() {
             type="text"
             value={search}
             onChange={updateSearch}
-            placeholder="type here to search"
+            placeholder="Type here to search"
           />
           <button className="search-button" type="submit">
             Search
