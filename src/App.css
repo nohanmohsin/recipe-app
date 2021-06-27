@@ -97,15 +97,36 @@
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #0b0b1d;
     width: 965px;
-    min-height: 200px;
+    height: 297px;
     background-color: white;
 }
 
 
-
-img{
+.info{
     align-self: center;
+}
+.recipe:hover .foodname{
+   color:#EB5757;
+}
+
+.recipe .description{
+    margin-top: 68px;
+    width: 537px;
+    font-size: 13px;
+}
+
+.recipe h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+}
+img{
+    width: 224px;
+    height: 206px;
+    border-radius: 7px;
+    align-self: center;
+    
 }
