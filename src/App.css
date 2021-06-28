@@ -113,20 +113,34 @@
 }
 
 .recipe .description{
-    margin-top: 68px;
+    margin-top: 20px;
     width: 537px;
     font-size: 13px;
 }
 
 .recipe h1{
     font-style: normal;
-    font-weight: bold;
+    font-weight: 1000;
     font-size: 38px;
 }
+
+.recipe button{
+    width: 144px;
+    height: 40px; 
+    margin-top: 16px;
+    background: #EB5757;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;  
+}
 img{
-    width: 224px;
-    height: 206px;
-    border-radius: 7px;
+    width: 253px;
+    height: 233px;
+    border-radius: 10px;
     align-self: center;
-    
+    margin-left: 34px;
+    margin-right: 34px;
 }
